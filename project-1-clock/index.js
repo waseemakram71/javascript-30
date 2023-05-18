@@ -10,6 +10,4 @@ setInterval(() => {
   secEl.style.transform = `rotate(${secDeg}deg)`;
   minEl.style.transform = `rotate(${minDeg}deg)`;
   hourEl.style.transform = `rotate(${hourDeg}deg)`;
-  // console.log(date.getSeconds())
-  // console.log(date.getMinutes())
 }, 1000);
